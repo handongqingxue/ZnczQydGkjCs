@@ -783,4 +783,8 @@ public class BangFang1Util {
 			e.printStackTrace();
 		}
 	}
+	
+	public static void main(String[] args) {
+		
+	}
 }
