@@ -16,8 +16,8 @@ import com.znczQydGkjCs.yz.*;
 
 public class APIUtil {
 	
-	public static final String SERVICE_URL="http://10.10.99.20:8080/ZnczLfyl/gkj/";
-	//public static final String SERVICE_URL="http://localhost:8080/ZnczLfyl/gkj/";
+	//public static final String SERVICE_URL="http://10.10.99.20:8080/ZnczQydCs/gkj/";
+	public static final String SERVICE_URL="http://localhost:8080/ZnczQydCs/gkj/";
 	public static final int YI_HAO_BANG_FANG=1;
 	public static final int ER_HAO_BANG_FANG=2;
 
