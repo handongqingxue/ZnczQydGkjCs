@@ -878,8 +878,8 @@ public class BangFang1Util {
 	
 	public static void main(String[] args) {
     	Car car = new Car();
-    	car.setsLicense(" ³B123451");
-		//updateYJCPSBDDXX(car);
+    	car.setsLicense(" ³B9001");
+    	//updateYJCPSBDDXX(car);
 		updateEJCPSBDDXX(car);
 	}
 }

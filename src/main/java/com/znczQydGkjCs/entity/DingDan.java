@@ -245,6 +245,12 @@ public class DingDan {
 	public void setBjsj(String bjsj) {
 		this.bjsj = bjsj;
 	}
+	public String getEwmlj() {
+		return ewmlj;
+	}
+	public void setEwmlj(String ewmlj) {
+		this.ewmlj = ewmlj;
+	}
 	private Integer yfwjlId;
 	private Integer qyjlId;
 	private String ddh;//¶©µ¥ºÅ
@@ -279,4 +285,5 @@ public class DingDan {
 	private Integer shbmId;
 	private String shbmMc;
 	private String bjsj;//±à¼­Ê±¼ä
+	private String ewmlj;
 }
