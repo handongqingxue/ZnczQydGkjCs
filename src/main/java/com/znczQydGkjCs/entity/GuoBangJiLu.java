@@ -63,11 +63,17 @@ public class GuoBangJiLu {
 	public void setGblxName(String gblxName) {
 		this.gblxName = gblxName;
 	}
-	public Integer getDdId() {
-		return ddId;
+	public Integer getYfwDdId() {
+		return yfwDdId;
 	}
-	public void setDdId(Integer ddId) {
-		this.ddId = ddId;
+	public void setYfwDdId(Integer yfwDdId) {
+		this.yfwDdId = yfwDdId;
+	}
+	public Integer getQyDdId() {
+		return qyDdId;
+	}
+	public void setQyDdId(Integer qyDdId) {
+		this.qyDdId = qyDdId;
 	}
 	public String getDdh() {
 		return ddh;
@@ -125,7 +131,8 @@ public class GuoBangJiLu {
 	private String gbsj;
 	private Integer gblx;
 	private String gblxName;
-	private Integer ddId;
+	private Integer yfwDdId;
+	private Integer qyDdId;
 	private String ddh;
 	private String cph;
 	private String sjsfzh;

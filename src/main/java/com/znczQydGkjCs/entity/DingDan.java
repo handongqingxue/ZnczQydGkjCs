@@ -59,11 +59,17 @@ public class DingDan {
 	public void setDdh(String ddh) {
 		this.ddh = ddh;
 	}
-	public Integer getDdztId() {
-		return ddztId;
+	public Integer getYfwDdztId() {
+		return yfwDdztId;
 	}
-	public void setDdztId(Integer ddztId) {
-		this.ddztId = ddztId;
+	public void setYfwDdztId(Integer yfwDdztId) {
+		this.yfwDdztId = yfwDdztId;
+	}
+	public Integer getQyDdztId() {
+		return qyDdztId;
+	}
+	public void setQyDdztId(Integer qyDdztId) {
+		this.qyDdztId = qyDdztId;
 	}
 	public String getDdztMc() {
 		return ddztMc;
@@ -242,7 +248,8 @@ public class DingDan {
 	private Integer yfwjlId;
 	private Integer qyjlId;
 	private String ddh;//订单号
-	private Integer ddztId;
+	private Integer yfwDdztId;
+	private Integer qyDdztId;
 	private String ddztMc;
 	private Integer xddztId;//新订单状态id
 	private String xddztMc;//新订单状态名称

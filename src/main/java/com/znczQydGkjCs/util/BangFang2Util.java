@@ -260,7 +260,7 @@ public class BangFang2Util {
 					//gbjl.setZp3(zp3);
 					gbjl.setGbzt(GuoBangJiLu.ZHENG_CHANG);
 					gbjl.setGblx(GuoBangJiLu.RU_CHANG_GUO_BANG);
-					gbjl.setDdId(dd1.getId());
+					gbjl.setQyDdId(dd1.getId());
 					//gbjl.setDdId(16);
 					APIUtil.newGuoBangJiLu(gbjl);
 				
@@ -650,7 +650,7 @@ public class BangFang2Util {
 					//gbjl.setZp3(zp3);
 					gbjl.setGbzt(GuoBangJiLu.ZHENG_CHANG);
 					gbjl.setGblx(GuoBangJiLu.CHU_CHANG_GUO_BANG);
-					gbjl.setDdId(dd1.getId());
+					gbjl.setQyDdId(dd1.getId());
 					APIUtil.newGuoBangJiLu(gbjl);
 				
 					System.out.println("查找订单状态为二检上磅的订单，将二检上磅状态从称重中更改为待下磅");

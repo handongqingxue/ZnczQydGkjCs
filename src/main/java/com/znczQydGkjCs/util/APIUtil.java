@@ -157,7 +157,7 @@ public class APIUtil {
 	        if(jz!=null)
 	        	parames.put("jz", jz);
 	        if(ddId!=null)
-	        	parames.put("ddId", ddId);  
+	        	parames.put("qyDdId", ddId);  
 	        resultJO = doHttp("newBangDanJiLu",parames);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -214,7 +214,7 @@ public class APIUtil {
 	        parames.put("zp3", gbjl.getZp3());
 	        parames.put("gbzt", gbjl.getGbzt());
 	        parames.put("gblx", gbjl.getGblx());
-	        parames.put("ddId", gbjl.getDdId());
+	        parames.put("qyDdId", gbjl.getQyDdId());
 	        resultJO = doHttp("newGuoBangJiLu",parames);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
