@@ -339,6 +339,21 @@ public class APIUtil {
 		}
 	}
 	
+	public static JSONObject syncToYf(String tabArrStr) {
+		JSONObject resultJO = null;
+		try {
+			Map parames = new HashMap<String, String>();
+	        parames.put("tabArrStr", tabArrStr);
+	        resultJO = doHttp("syncToYf",parames);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally {
+			return resultJO;
+		}
+	}
+	
 	public static void updateEJCZDDXX() {
 		/*
 		checkEJSBHWGSState();

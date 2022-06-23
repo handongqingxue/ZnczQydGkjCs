@@ -438,6 +438,7 @@ public class BangFang1Util {
 					break;
 				//}
 			}
+			APIUtil.syncToYf(Main.DING_DAN+","+Main.BANG_DAN_JI_LU+","+Main.GUO_BANG_JI_LU);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -678,7 +679,7 @@ public class BangFang1Util {
 				int bdId = bdJO.getInt("id");
 				if(dd1.getLxlx()==DingDan.SONG_YUN) {
 					mz=(float)bdJO.getDouble("mz");
-					dxgpz=(float)1000;
+					dxgpz=(float)1500;
 					//dxgpz=(float)DiBangTask3124.getWeight(GuoBangJiLu.CHU_CHANG_GUO_BANG);
 					djczl=dxgpz;
 					jz=mz-dxgpz;
@@ -870,6 +871,7 @@ public class BangFang1Util {
 					break;
 				//}
 			}
+			APIUtil.syncToYf(Main.DING_DAN+","+Main.BANG_DAN_JI_LU+","+Main.GUO_BANG_JI_LU);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -878,8 +880,8 @@ public class BangFang1Util {
 	
 	public static void main(String[] args) {
     	Car car = new Car();
-    	car.setsLicense(" ³B9001");
+    	car.setsLicense(" ³B123456");
     	//updateYJCPSBDDXX(car);
-		updateEJCPSBDDXX(car);
+    	updateEJCPSBDDXX(car);
 	}
 }
